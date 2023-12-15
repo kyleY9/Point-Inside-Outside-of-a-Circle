@@ -20,6 +20,6 @@ public class Circle {
 
     // other public methods
     public boolean isInside(Point p) {
-        return distance(p) < radius;
+        return center.distance(p) < radius;
     }
 }
